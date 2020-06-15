@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#afabab">
+
+    <TextView
+        android:id="@+id/text_info"
+        android:layout_width="234dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:text="Temperature Converter"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputFarenheit"
+        android:layout_width="123dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="412dp"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:layout_constraintStart_toStartOf="@+id/second"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="123dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="332dp"
+        android:textAlignment="center"
+        android:text="°C"
+        android:textSize="24dp"
+        android:background="@drawable/border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="123dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:textAlignment="center"
+        android:text="°F"
+        android:textSize="24dp"
+        android:background="@drawable/border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/first" />
+
+    <EditText
+        android:id="@+id/inputCelcius"
+        android:layout_width="123dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:layout_constraintStart_toStartOf="@+id/first"
+        app:layout_constraintTop_toTopOf="@+id/inputFarenheit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.calculatorapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_currency"
+        android:name="com.example.calculatorapp.ui.currency.CurrencyFragment"
+        android:label="@string/menu_currency"
+        tools:layout="@layout/fragment_currency" />
+
+    <fragment
+        android:id="@+id/nav_simple"
+        android:name="com.example.calculatorapp.ui.simple.SimpleFragment"
+        android:label="@string/menu_simple"
+        tools:layout="@layout/fragment_simple" />
+
+    <fragment
+        android:id="@+id/nav_loan"
+        android:name="com.example.calculatorapp.ui.loan.LoanFragment"
+        android:label="@string/menu_loan"
+        tools:layout="@layout/fragment_loan" />
+    <fragment
+        android:id="@+id/nav_compound"
+        android:name="com.example.calculatorapp.ui.compound.CompoundFragment"
+        android:label="@string/menu_compound"
+        tools:layout="@layout/fragment_compound" />
+
+    <fragment
+        android:id="@+id/nav_fuel_cost"
+        android:name="com.example.calculatorapp.ui.fuel_cost.FuelCostFragment"
+        android:label="@string/menu_fuel_cost"
+        tools:layout="@layout/fragment_fuel_cost" />
+
+    <fragment
+        android:id="@+id/nav_fuel_mileage"
+        android:name="com.example.calculatorapp.ui.fuel_mileage.FuelMileageFragment"
+        android:label="@string/menu_fuel_mileage"
+        tools:layout="@layout/fragment_fuel_mileage" />
+
+    <fragment
+        android:id="@+id/nav_units"
+        android:name="com.example.calculatorapp.ui.units.UnitsFragment"
+        android:label="@string/menu_units"
+        tools:layout="@layout/fragment_units" />
+
+    <fragment
+        android:id="@+id/nav_temperature"
+        android:name="com.example.calculatorapp.ui.temperature.TemperatureFragment"
+        android:label="@string/menu_temperature"
+        tools:layout="@layout/fragment_temperature" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.calculatorapp.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

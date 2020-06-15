@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Calc+</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Calc+</string>
+    <string name="nav_header_subtitle">Menu</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="question_mark">?</string>
+
+    <string name="menu_home">Calculator</string>
+    <string name="menu_currency">Currency Converter</string>
+    <string name="menu_loan">Loan Calculator</string>
+    <string name="menu_simple">Simple Interest</string>
+    <string name="menu_compound">Compound Interest</string>
+    <string name="menu_fuel_cost">Fuel Cost Calculator</string>
+    <string name="menu_fuel_mileage">Fuel Mileage</string>
+    <string name="menu_units">Units Converter</string>
+    <string name="menu_temperature">Temperature</string>
+    <string name="menu_settings">Settings</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_currency"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_currency" />
+        <item
+            android:id="@+id/nav_loan"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_loan" />
+        <item
+            android:id="@+id/nav_simple"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_simple" />
+        <item
+            android:id="@+id/nav_compound"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_compound" />
+        <item
+            android:id="@+id/nav_fuel_cost"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_fuel_cost" />
+        <item
+            android:id="@+id/nav_fuel_mileage"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_fuel_mileage" />
+        <item
+            android:id="@+id/nav_units"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_units" />
+        <item
+            android:id="@+id/nav_temperature"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_temperature" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/menu_settings" />
+    </group>
+</menu>
